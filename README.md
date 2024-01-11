@@ -1,6 +1,6 @@
-# uninstall_bigbluebutton
+# Uninstall_bigbluebutton
 
-~ For Remove Package
+To remove the packages just clone the `uninstall_package.py` file and run it as follows:
 <pre>
 apt install python3 -y
 python3 uninstall_package.py
@@ -35,3 +35,6 @@ n 16.14.2
 hash -r
 node -v
 ```
+
+## To Re-install the previous version
+`wget -qO- https://ubuntu.bigbluebutton.org/bbb-install-2.5.sh | bash -s -- -v focal-250 -s vk.anadolu.edu.tr -e info@mail.com -a -w`
